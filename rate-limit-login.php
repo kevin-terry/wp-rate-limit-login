@@ -1,8 +1,23 @@
 <?php
 /**
+ * Rate Limit Login
+ *
+ * @package   RLL
+ * @author    Kevin Terry
+ * @copyright 2026 Kevin Terry
+ * @license   GPL-2.0-or-later
+ *
+ * @wordpress-plugin
  * Plugin Name: Rate Limit Login
- * Description: Lightweight login rate limiter using transients. Drop in wp-content/mu-plugins/.
- * Version: 1.0.0
+ * Plugin URI: https://github.com/kevin-terry/wp-rate-limit-login/
+ * Description: Lightweight login rate limiter using transients.
+ * Version: 1.0.3
+ * Requires at least: 6.2
+ * Requires PHP: 7.4
+ * Author: Kevin Terry
+ * Author URI: https://github.com/kevin-terry
+ * License: GPL-2.0-or-later
+ * License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
  */
 
 defined('ABSPATH') || exit;
