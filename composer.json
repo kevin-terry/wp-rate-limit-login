@@ -1,5 +1,5 @@
 {
-  "name": "kevin-terry/wp-rate-limit-login",
+  "name": "kevin-terry/rate-limit-login",
   "description": "Lightweight login rate limiter for WordPress",
   "type": "wordpress-muplugin",
   "license": "GPL-2.0-or-later",
