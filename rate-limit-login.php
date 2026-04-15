@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Rate Limit Login
- * Plugin URI: https://github.com/kevin-terry/wp-rate-limit-login/
+ * Plugin URI: https://github.com/kevin-terry/rate-limit-login
  * Description: Lightweight login rate limiter using transients.
  * Version: 1.0.3
  * Requires at least: 6.2
