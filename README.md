@@ -6,7 +6,7 @@ A lightweight WordPress must-use plugin that rate limits login attempts by IP ad
 
 WordPress doesn't limit login attempts by default. If your login endpoint is exposed, bots can hammer it indefinitely. Most security plugins that solve this come bundled with dozens of unrelated features.
 
-This plugin does one thing: block an IP after too many failed login attempts.
+This plugin does one thing: block an IP after too many failed login attempts. That's all folks.
 
 ## How It Works
 
@@ -62,7 +62,7 @@ function rll_get_client_ip(): string {
 - WordPress 5.0+
 - PHP 7.4+
 - Works with standard and non-standard login paths (e.g. Bedrock, custom `/wordpress/` subdirectory installs).
-- Compatible with NGINX Direct Delivery (SiteGround) since PHP requests are processed by Apache regardless.
+- Compatible with NGINX Direct Delivery as long as PHP requests are processed by Apache.
 
 ## License
 
