@@ -2,7 +2,7 @@
   "name": "kevin-terry/wp-rate-limit-login",
   "description": "Lightweight login rate limiter for WordPress",
   "type": "wordpress-muplugin",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "require": {
     "php": "^7.4"
   }
